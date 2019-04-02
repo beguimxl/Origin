@@ -1,17 +1,31 @@
 /* Bilguun Soninbayar -2016089- April 2nd */
 	
 	fun main(args: Array<String>) {
-    var x = 52
-	var y = 87
-    
-	println("Finding Bigger Number")
-	println("x = 52 ,y = 87")
-	
+    var x = 5
+	var y = 3
+        
+    println("Finding Bigger Number")
+	fun comparison(){
+        
 	if(x >= y){
-		println("x $x is more")
+		println("x=$x is more than y=$y")
     }
     
     else{
-		println("y $y is more")
+		println("y=$y is more than x=$y")
+    	}
     }
+    comparison()
+    x = 1
+    y = 2
+    comparison()
+    x = 100
+    y = 50    
+    comparison()    
+    x = 50
+    y = 100
+    comparison()
+    x = 20
+    y = 15
+    comparison()
 }
