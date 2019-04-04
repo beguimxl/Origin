@@ -5,16 +5,17 @@
 	var y = 3
         
     println("Finding Bigger Number")
+    
 	fun comparison(){
         
-	if(x >= y){
+	if(x > y){
 		println("x=$x is more than y=$y")
-    }
-    
-    else{
-		println("y=$y is more than x=$y")
+    	}
+    if(x < y){
+		println("y=$y is more than x=$x")
     	}
     }
+    
     comparison()
     x = 1
     y = 2
